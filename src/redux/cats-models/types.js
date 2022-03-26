@@ -1,0 +1,4 @@
+export const GET_CAT_CATEGORIES = 'GET_CAT_CATEGORIES';
+export const SET_IS_LOADER = 'SET_IS_LOADER';
+export const GET_CATS = 'GET_CATS';
+export const SET_CATEGORY_ID = 'SET_CATEGORY_ID'

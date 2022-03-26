@@ -1,0 +1,47 @@
+.cats-page{
+  position: relative;
+  padding: 20px;
+  .categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    @media(max-width: 991px){
+      width: 100%;
+    }
+  }
+  .background {
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    z-index: 120;
+    padding: 30px 0;
+  }
+  .cats{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .see-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    button{
+      padding: 9px 56px;
+      color: #141a23;
+      background: #e2bd68;
+      border-radius: 4px;
+      border: 1px solid #e2bd68;
+      font-size: 16px;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  }
+}
